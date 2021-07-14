@@ -93,7 +93,7 @@ const initGlobe = (data) => {
     .arcDashGap(4)
     .arcDashAnimateTime(1000)
     .arcsTransitionDuration(1000)
-    .arcDashInitialGap(2)
+    .arcDashInitialGap(() => Math.random() * 3)
     .hexPolygonsData(countries.features)
     .hexPolygonResolution(3)
     .hexPolygonMargin(0.7)
