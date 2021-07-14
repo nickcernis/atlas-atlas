@@ -83,7 +83,10 @@ const animate = () => {
 
 const initGlobe = (data) => {
   globe = new ThreeGlobe()
-    .arcColor(() => "#9cff00")
+    .arcColor(() => {
+      let random = Math.floor(Math.random() * config.arcColors.length);
+      return config.arcColors[random];
+    })
     .arcAltitude(0.3)
     .arcStroke(0.6)
     .arcDashLength(0.8)

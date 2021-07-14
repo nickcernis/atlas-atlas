@@ -11,6 +11,7 @@ const config = {
   pointColor: "#ffffff",
   // Labels mark city names.
   labelColor: "#ffff00",
+  arcColors: ["#9cff00", "#dd00ff", "#ffcc00"],
   firebaseUrl: "https://atlasatlas-1f9a2-default-rtdb.firebaseio.com"
 };
 
