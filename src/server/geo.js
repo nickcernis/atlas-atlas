@@ -62,6 +62,7 @@ const cityPositions = {
   lynchburg: { lat: "37.4138", lng: "-79.1422" },
   omaha: { lat: "41.2565", lng: "-95.9345" },
   "san antonio": { lat: "29.4241", lng: "-98.4936" },
+  "san luis obispo": { lat: "35.2828", lng: "-120.6596" },
   sarasota: { lat: "27.3364", lng: "-82.5307" },
   tualatin: { lat: "45.3780", lng: "-122.7822" },
   williamston: { lat: "42.6889", lng: "-84.2830" },
