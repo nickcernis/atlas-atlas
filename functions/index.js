@@ -26,7 +26,7 @@ exports.logGraphqlRequest = functions.https.onRequest((request, response) => {
       startLat: firstIP.latitude,
       startLng: firstIP.longitude,
       endLat: secondIP.latitude,
-      endLong: secondIP.longitude,
+      endLng: secondIP.longitude,
     });
     response.status(200).send("OK!");
   });
