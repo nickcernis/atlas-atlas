@@ -15,7 +15,7 @@ Built for the WP Engine Atlas 2021 hackathon.
 
 ## Key
 - **Pillars** (in white) represent the people building the Atlas platform, with pillar height denoting the number of people in those cities.
-- **Arcs** (in color) show a live updating path of the last 10 WPGraphQL requests for the site itself (from the requesting IP to the server hosting WPGraphQL).
+- **Arcs** (in color) show a live updating path of the last 10 WPGraphQL requests for the site itself (from the requesting IP to the server hosting WPGraphQL).[^2]
 
 ## Stack
 - [Atlas by WP Engine](https://wpengine.com/atlas) for headless WordPress and Node.js hosting.
@@ -36,3 +36,4 @@ Running locally still uses my WordPress/Firebase instances by default, but will 
 
 #### Footnotes
 1: Ok, I admit it's a globe and not an atlas. “Atlas globe” isn't nearly as satisfying to say.
+2. WPGraphQL requests originate from the Node.js server by default, so most of the arcs represent requests from the Node.js server (in Europe) to the WordPress server (in the US). But try visiting the [WPGraphQL endpoint](https://atlasatlas.wpengine.com/graphql) in your browser, and you should see an arc from your IP location to the WordPress server.
