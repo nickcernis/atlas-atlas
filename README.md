@@ -35,5 +35,5 @@ Built for the WP Engine Atlas 2021 hackathon.
 Running locally still uses my WordPress/Firebase instances by default, but will let you play with the globe and Express server code if you'd like to.
 
 #### Footnotes
-1: Ok, I admit it's a globe and not an atlas. “Atlas globe” isn't nearly as satisfying to say.
+1. Ok, I admit it's a globe and not an atlas. “Atlas globe” isn't nearly as satisfying to say.
 2. WPGraphQL requests originate from the Node.js server by default, so most of the arcs represent requests from the Node.js server (in Europe) to the WordPress server (in the US). But try visiting the [WPGraphQL endpoint](https://atlasatlas.wpengine.com/graphql) in your browser, and you should see an arc from your IP location to the WordPress server.
